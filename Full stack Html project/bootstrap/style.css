@@ -1,0 +1,4 @@
+.container{background-color: aquamarine; border: 10px solid green}
+.row{background-color: brown;}
+
+.col1, .col2{border: solid 3px; width: 100px;}

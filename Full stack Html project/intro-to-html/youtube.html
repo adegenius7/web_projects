@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+        <!--the grid takes precedence over the display element....but i wouldnt remove it for learning sake after setting the grid, you have to set the width of all images to 100% of their container, else images will take up the whole fr and be blurry, and then remove the initial display block-->
+        <link rel="stylesheet" href="/intro-to-html/Youtube_styles/video.css">
+        <link rel="stylesheet" href="/intro-to-html/Youtube_styles/header.css">
+        <link rel="stylesheet" href="/intro-to-html/Youtube_styles/General.css">
+        <link rel="stylesheet" href="/intro-to-html/Youtube_styles/sidebar.css">
+    </head>
+    <body style="padding-bottom: 1000px; padding-top: 80px;">
+        <div class="header">
+            <div class="left-section"><img class="hamburger-logo" src="/intro-to-html/Youtube_styles/youtube_images/hamburger-menu.svg" alt=""><img class="youtube-logo" src="/intro-to-html/Youtube_styles/youtube_images/youtube-logo.svg" alt=""></div>
+            <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon"src="/intro-to-html/Youtube_styles/youtube_images/search.svg" alt="">
+                <div class="tool-tip">Search</div>
+            </button>
+            <button class="voice-search-icon">
+                <img class="voice-icon" src="/intro-to-html/Youtube_styles/youtube_images/voice-search-icon.svg" alt="">
+                <div class="voice-search-text">Search with your voice</div>
+            </button>
+            </div>
+            
+            <div class="right-section">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="/intro-to-html/Youtube_styles/youtube_images/upload.svg" alt="">
+                        <div class="tool-tip">Create</div>
+                    </div>
+                    <div class="apps-icon-container">
+                        <img class="apps-icon" src="/intro-to-html/Youtube_styles/youtube_images/youtube-apps.svg" alt="">
+                        <div class="tool-tip">YouTube apps</div>
+                    </div>
+                    <div class="notification-icon-container">
+                        <img class="notifi-icon" src="/intro-to-html/Youtube_styles/youtube_images/notifications.svg" alt="">
+                        <div class="notification-count">3</div>
+                        <div class="tool-tip">Notifications</div>
+
+                    </div>
+                
+                    <img class="prof-pic" src="/intro-to-html/Youtube_styles/youtube_images/photo_2022-07-08_17-14-07.jpg" alt="">
+                    
+            
+            </div>
+            
+
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-links">
+                <img  src="/intro-to-html/Youtube_styles/youtube_images/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="/intro-to-html/Youtube_styles/youtube_images/explore.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-links">
+                <img  src="/intro-to-html/Youtube_styles/youtube_images/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-links">
+                <img  src="/intro-to-html/Youtube_styles/youtube_images/originals.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-links">
+                <img  src="/intro-to-html/Youtube_styles/youtube_images/youtube-music.svg" alt="">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="/intro-to-html/Youtube_styles/youtube_images/library.svg" alt="">
+                <div>Library</div>
+            </div>
+
+
+        </div>
+        
+       
+        <div class="total-video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-1.webp">
+                    <div class="video-time">
+                        14:30
+
+                    </div>
+                </div>
+                
+                <div class="video-info-grid">
+                    
+                    <div class="video-dp" ><img class="profile-pic" src="/intro-to-html/channel-1.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author">Marques Brownlee</p> 
+                        
+                        <p class="video-stat">3.4M views &#183; 6 months ago</p>
+                    </div>
+
+                    
+                </div>
+
+            </div>      
+
+            <div class="video-preview"><div class="thumbnail-row"><img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp"></div>
+                <div class="video-info-grid">
+
+                    <div class="video-dp"><img class="profile-pic" src="/intro-to-html/channel-2.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p> 
+                
+                        <p class="video-stat">19M views &#183; 4 years ago</p>
+               
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="video-preview"><div class="thumbnail-row"><img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp"></div>
+                <div class="video-info-grid">
+
+                    <div class="video-dp"><img class="profile-pic" src="/intro-to-html/channel-2.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p> 
+                
+                        <p class="video-stat">19M views &#183; 4 years ago</p>
+               
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="video-preview"><div class="thumbnail-row"><img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp"></div>
+                <div class="video-info-grid">
+
+                    <div class="video-dp"><img class="profile-pic" src="/intro-to-html/channel-2.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p> 
+                
+                        <p class="video-stat">19M views &#183; 4 years ago</p>
+               
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="video-preview"><div class="thumbnail-row"><img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp"></div>
+                <div class="video-info-grid">
+
+                    <div class="video-dp"><img class="profile-pic" src="/intro-to-html/channel-2.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p> 
+                
+                        <p class="video-stat">19M views &#183; 4 years ago</p>
+               
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="video-preview"><div class="thumbnail-row"><img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp"></div>
+                <div class="video-info-grid">
+
+                    <div class="video-dp"><img class="profile-pic" src="/intro-to-html/channel-2.jpeg" alt=""></div>
+                    <div class="video-text"><p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p> 
+                
+                        <p class="video-stat">19M views &#183; 4 years ago</p>
+               
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+            
+    </body>
+</html>
